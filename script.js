@@ -1,5 +1,10 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
+	const date_1 = new Date(date1);
+	const date_2 = new Date(date2)
+	const date = date_1 - date_2;
+	return date/86400000
+	
 };
 
 // Do not change the code below.
